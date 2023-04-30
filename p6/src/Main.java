@@ -1,0 +1,18 @@
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+    public static void main(String[] args) {
+        SortedSet<Integer> numeritos_ordenados = new TreeSet<>();
+
+        numeritos_ordenados.add(546546);
+        numeritos_ordenados.add(30);
+        numeritos_ordenados.add(8445);
+        numeritos_ordenados.add(1545);
+        numeritos_ordenados.add(-12545);
+
+        System.out.println(numeritos_ordenados);
+    }
+}
