@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int opcion = 0;
         List<Persona> alumnos_cargados = new ArrayList<>();
-        
+
         //hardcodeando para la consigna
         Persona p0 = new Persona("Pepito","Sanchez",212);
         Persona p1 = new Persona("Juanita","Ortega",210);
